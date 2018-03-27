@@ -1,4 +1,4 @@
-# Grand Central Dispatch Crash Course for Swift 3
+Grand Central Dispatch trong Swift 3
 
 ### GCD là gì?
 
@@ -150,18 +150,22 @@ DispatchQueue.global(qos: .background).async {
 
 #### Cẩn thận deadlocks với serial queues
 
+**Deadlock** (Khóa chết) là trạng thái xảy ra trong môi trường đa nhiệm (muti-threading) khi hai hoặc nhiều tiến trình đi vào vòng lặp chờ tài nguyên mãi mãi.
+
 ```swift
 let customSerialQueue = DispatchQueue(label: "com.yogevsitton.MyApp.myCustomSerialQueue")
 
 customSerialQueue.sync {
     // code chạy đồng bộ
     customSerialQueue.sync {
-        // Đoạn code này sẽ không bao giờ được thực thị, app sẽ bị deadlock
+        // Đoạn code này sẽ không bao giờ được thực thi, app sẽ bị deadlock
     }
 }
 ```
 
-#### **Cẩn thận khi chạy đồng bộ trên main thread từ một background thread chạy đồng bộ**
+Block bên ngoài đang đợi block bên trong kết thúc. Block bên trong sẽ không bắt đầu trước khi block bên ngoài kết thúc. Kết quả gây ra deadlock.
+
+#### Cẩn thận khi chạy đồng bộ trên main thread từ một background thread chạy đồng bộ
 
 ```swift
 DispatchQueue.global(qos: .utility).sync {
@@ -172,13 +176,13 @@ DispatchQueue.global(qos: .utility).sync {
 }
 ```
 
-### Where to go from here?
+### Đọc tiếp
 
 - [Grand Central Dispatch Tutorial for Swift 3: Part 1/2](https://www.raywenderlich.com/148513/grand-central-dispatch-tutorial-swift-3-part-1)
 - [Common Background Practices](https://www.objc.io/issues/2-concurrency/common-background-practices/)
 - [Thread-Safe Class Design](https://www.objc.io/issues/2-concurrency/thread-safe-class-design/#practical-thread-safe-design)
 
-### References
+### Tham khảo
 
 - [Grand Central Dispatch Crash Course for Swift 3](https://medium.com/modernnerd-code/grand-central-dispatch-crash-course-for-swift-3-8bf2652c1cb8)
 - [Grand Central Dispatch Tutorial for Swift 3: Part 1/2](https://www.raywenderlich.com/148513/grand-central-dispatch-tutorial-swift-3-part-1)
