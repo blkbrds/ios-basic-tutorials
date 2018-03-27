@@ -152,10 +152,17 @@ DispatchQueue.global(qos: .background).async {
 
 **Deadlock** (Khóa chết) là trạng thái xảy ra trong môi trường đa nhiệm (muti-threading) khi hai hoặc nhiều tiến trình đi vào vòng lặp chờ tài nguyên mãi mãi.
 
+Có bốn điều kiện cần thiết để deadlock có thể xảy ra.
+
+1. Điều kiện [loại trừ lẫn nhau](https://vi.wikipedia.org/w/index.php?title=Lo%E1%BA%A1i_tr%E1%BB%AB_l%E1%BA%ABn_nhau&action=edit&redlink=1): Một tài nguyên không thể sử dụng bởi nhiều hơn một tiến trình tại một thời điểm
+2. Điều kiện [giữ và chờ](https://vi.wikipedia.org/w/index.php?title=Gi%E1%BB%AF_v%C3%A0_ch%E1%BB%9D&action=edit&redlink=1): Các tiến trình giữ tài nguyên và chờ tài nguyên mới
+3. Điều kiện không thể chiếm: Các tài nguyên không thể bị đòi lại, chúng chỉ có thể được giải phóng bởi chính tiến trình chiếm giữ chúng
+4. Điều kiện chu trình chờ: Các tiến trình giữ tài nguyên và chờ các tài nguyên bị giữ bởi tiến trình khác, tạo thành một chu trình. Ví dụ: Tiến trình 1, chiếm A1, chờ A2. Tiến trình 2 chiếm A2, chờ A3,... Tiến trình N chiếm An, chờ A1.
+
 ```swift
 let customSerialQueue = DispatchQueue(label: "com.yogevsitton.MyApp.myCustomSerialQueue")
 
-customSerialQueue.sync {
+customSerialQueue.async {
     // code chạy đồng bộ
     customSerialQueue.sync {
         // Đoạn code này sẽ không bao giờ được thực thi, app sẽ bị deadlock
