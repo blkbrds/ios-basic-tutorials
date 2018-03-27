@@ -1,4 +1,10 @@
-footer-links:
-  github: /blkbrds
-
+permalink: /ios-basic-tutorials/:title/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - vendor
+encoding: "utf-8"
 theme: jekyll-theme-cayman
