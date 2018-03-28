@@ -8,7 +8,6 @@
     "**/.DS_Store": true,
     "**/.bundle": true,
     "**/vendor": true,
-    "**/.ruby-version": true,
-    "**/Gemfile.lock": true
+    "**/.vscode": true
   }
 }

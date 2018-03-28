@@ -5,8 +5,4 @@ _site
 .bundle
 .sass-cache
 node_modules
-package.json
 vendor
-Gemfile
-Gemfile.lock
-.ruby-version
