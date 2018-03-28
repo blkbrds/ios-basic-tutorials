@@ -1,10 +1,10 @@
 # Unwrapping Optional Values trong Swift - Guard Let và If Let?
 
-Swift hỗ trợ cho chúng ta nhiều cách để unwrap 1 biến Optional, như sử dụng toán tử "!" là phương pháp `force unwrapped` hoặc dùng câu lệnh `if let` và `guard let`. Nhưng tuỳ trường hợp chúng ta sẽ sử dụng 1 trong 3 cách đó.
+Swift hỗ trợ cho chúng ta nhiều cách để unwrap 1 biến Optional, như sử dụng toán tử "!" là phương pháp `force unwrapped` hoặc dùng "optional binding" (`if let hoặc if var`), "Early Exit" (`guard let hoặc guard var`) và một cách nữa là Implicitly ( lúc khai báo biến dùng `!` thay vì `?`). Tuỳ trường hợp chúng ta sẽ sử dụng 1 trong 3 cách đó.
 
 ## Force Unwrapped:
 
-Chúng ta có thể unwrap 1 biến Optional với toán tử `!` nhưng đó không phải là cách wrapping an toàn. Nếu bạn dùng `forcibly unwrapping` không đúng chỗ, ứng dụng có thể bị crashed.
+Chúng ta có thể unwrap 1 biến Optional với toán tử `!` nhưng đó không phải là cách wrapping an toàn. Nếu bạn dùng `forced unwrapping` cần chắc chắn rằng giá trị optional lúc này là non-nil trước khi sử dụng `forced unwrapping`
 
 ```swift
 var name: String? = "Dung Duong C."
@@ -17,7 +17,7 @@ Khi sử dụng cách làm này, phải luôn chắc chắn rằng biến có va
 
 ## Optional Binding:
 
-Vì vậy bạn có thể unwrap 1 biến Optional với `if let` (`Optional Binding`). Sử dụng `if let` để kiểm tra nếu như biến có giá trị thì unwrap và sử dụng giá trị của biến, nếu không thì thôi, ví dụ:
+Vì vậy bạn có thể unwrap 1 biến Optional với `Optional Binding ` (`if let hoặc if var`). Dùng `Optional Binding `  kiểm tra giá trị optional để đảm bảo việc nó tồn tại giá trị , và nếu có giá trị thì gán giá trị đó tạm thời cho biến/hằng. Tránh được việc gây chết chương trình. Ví dụ:
 
 ```swift
 var name: String? = "Dung Duong C."
