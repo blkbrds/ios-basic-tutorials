@@ -4,9 +4,16 @@
 @import "{{ site.theme }}";
 
 article {
-  padding-bottom: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: solid 1px #eff0f1;
 }
 
 article:last-child {
   padding-bottom: 0px;
+  border-bottom: none;
+}
+
+article:first-child {
+  padding-top: 0px;
 }
