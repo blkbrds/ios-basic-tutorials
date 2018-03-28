@@ -1,4 +1,7 @@
-# Unwrapping Optional Values trong Swift - Guard Let và If Let?
+---
+layout: post
+title: Unwrapping Optional Values trong Swift - Guard Let và If Let?
+---
 
 Swift hỗ trợ cho chúng ta nhiều cách để unwrap 1 biến Optional, như sử dụng toán tử "!" là phương pháp `force unwrapped` hoặc dùng "optional binding" (`if let hoặc if var`), "Early Exit" (`guard let hoặc guard var`) và một cách nữa là Implicitly ( lúc khai báo biến dùng `!` thay vì `?`). Tuỳ trường hợp chúng ta sẽ sử dụng 1 trong 3 cách đó.
 
