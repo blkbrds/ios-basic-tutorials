@@ -2,7 +2,9 @@
 
 ## Đặt vấn đề:
 
-Một số người cho rằng ***function*** và ***closure*** đều giống nhau, nhưng có cú pháp khác nhau, những người khác cho rằng ***function*** là một dạng ***closure*** đặc biệt. Vậy ***function*** là gì? ***closure*** là gì? Chúng ta sẽ cùng tìm hiểu qua các nội dung của bài viết này.
+Trong lập trình, không ít lần chúng ta tạo ra những function tương tác với webservice nhằm thực hiện một nhiệm vụ cụ thể nào đó. Nguyên lý của nó là gửi yêu cầu đi và nhận kết quả về. Nhưng, quá trình này sẽ diễn ra trong bao lâu? Khi nào thì nó kết thúc? Đó là điều hoàn toàn ngẫu nhiên và nó diễn ra bất đồng bộ.
+
+Vậy làm sao để kiểm soát được quá trình này và trả về một thông báo khi nó kết thúc? Sự ra đời của `CLOSURE` sẽ giúp chúng ta giải quyết được những vấn đề trên.
 
 ## Function:
 
@@ -20,13 +22,13 @@ Trong trường hợp chúng ta muốn truyền một function vào một functi
 
 ## Closure:
 
-***<u>Khái niệm</u>***: 
+**<u>Khái niệm</u>**: 
 
 Theo tài liệu của Apple: ***Closure*** là một khối lệnh có thể truyền đi và sử dụng trong source code của bạn, có thể được gán cho biến hoặc truyền vào function như một tham số. Closure trong Swift tương tự như block  trong Objective-C.
 
 Một đặc điểm quan trọng của closure là capture giá trị và lưu giữ tham chiếu đến bất cứ hằng và biến từ ngữ cảnh (context) mà nó được định nghĩa.
 
-***<u>Cú pháp:</u>***
+**<u>Cú pháp:</u>**
 
 `{ (params) -> returnType in`
 	`//statements`
