@@ -1,4 +1,3 @@
-permalink: /ios-basic-tutorials/:title/
 exclude:
   - Gemfile
   - Gemfile.lock
