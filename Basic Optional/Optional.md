@@ -5,24 +5,23 @@
 - Trong lập trình, một trong những lỗi thường gặp nhất của lập trình viên là dùng một biến nhưng không kiểm soát được giá trị trả về của biến, biến đó có thể có giá trị (**value**) hoặc không có giá trị nào (**no value**).
 - Vấn đề đặt ra ở đây là có quá nhiều trường hợp có thể làm cho giá trị của biến không tồn tại, và sử dụng những biến như vậy tiềm ẩn rất nhiều mối nguy hiểm. Câu hỏi đặt ra ở đây là cần giải quyết vấn đề đó như thế nào?
 
-Trên thực tế thì các lập trình viên cũng đã đưa ra nhiều giải pháp để giải quyết vấn đề trên. Nhưng ở bài viết này, mình sẽ phân tích kỹ hơn về một kiểu dữ liệu dùng để giải quyết sự vắng mặt giá trị của một biến.
+Trên thực tế thì các lập trình viên cũng đã đưa ra nhiều giải pháp để giải quyết vấn đề trên. Nhưng ở bài viết này, mình sẽ phân tích kỹ hơn về một kiểu dữ liệu dùng để chấp nhận sự vắng mặt giá trị của một biến / hằng.
 
-Mời các bạn tìm cùng mình đi sâu hơn một chút về *kiểu dữ liệu Optional* trong **Swift**
+Mời các bạn tìm cùng mình đi sâu hơn một chút về *kiểu dữ liệu Optional* trong **Swift**.
 
 ## Kiểu dữ liệu Optional
 
-Trong Swift có một giá trị đặc biệt là `nil`, dùng để biểu diễn "**no value**". `nil` không là giá trị hợp lệ cho bất kỳ thứ gì và nó có thể gây ra các lỗi về xử lý, ví dụ như thực hiện các phép toán giữa các biến có giá trị `nil` với nhau có thể gây lỗi.
+Trong Swift có một giá trị đặc biệt là `nil`, xác định trạng thái không có giá trị của biến / hằng. `nil` có thể gây ra các lỗi về xử lý, ví dụ như thực hiện các phép toán giữa các biến có giá trị `nil` với nhau có thể gây lỗi.
 
-Vậy `nil` thuộc kiểu dữ liệu nào hay kiểu dữ liệu nào bao gồm giá trị `nil`? Đó chính là **Optional**.
+Khi sử dụng các biến / hằng mà ta không chắc chắn nó có giá trị hay không, để an toàn thì ta sẽ gói (**wrap**) nó lại (các giá trị này là `wrapped value`)
 
-- **Optional** là kiểu mà mọi giá trị đã được gói lại (**wrap**) mà trong đó, ta không thể biết được nó có giá trị hay không.
+Như vậy:
+
+- **Optional** là kiểu đại diện cho hoặc là `wrapped value` hoặc là `nil`.
 
 
 - **Optional** thực chất là một kiểu dữ liệu, nhưng nó gắn liền với các kiểu dữ liệu có sẵn và kèm theo ký pháp `?`
 
-$$
-Optional?		<=>		(value + nil)
-$$
 
 - Cú pháp:
 
