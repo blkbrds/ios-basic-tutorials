@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E73B162C206A299500041E6A /* GiaiPhuongTrinhBacHai.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B162B206A299500041E6A /* GiaiPhuongTrinhBacHai.swift */; };
+		E73B162E206A2D1700041E6A /* GiaiBatPhuongTrinhBacHai.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B162D206A2D1700041E6A /* GiaiBatPhuongTrinhBacHai.swift */; };
+		E73B1630206A34AF00041E6A /* TinhAMuN.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B162F206A34AF00041E6A /* TinhAMuN.swift */; };
+		E73B1632206A390500041E6A /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B1631206A390500041E6A /* Tutorial.swift */; };
+		E7D366D32069E03200F4FD25 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D366D22069E03200F4FD25 /* main.swift */; };
+		E7D366E82069E11F00F4FD25 /* BanKinhHinhCau.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D366E72069E11F00F4FD25 /* BanKinhHinhCau.swift */; };
+		E7D366EA2069E42400F4FD25 /* TinhGiaTriHam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D366E92069E42400F4FD25 /* TinhGiaTriHam.swift */; };
+		E7D366EC2069E46F00F4FD25 /* GiaTriFXY.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D366EB2069E46F00F4FD25 /* GiaTriFXY.swift */; };
+		E7D366EE2069F52C00F4FD25 /* TinhGiaTriLonNhat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D366ED2069F52C00F4FD25 /* TinhGiaTriLonNhat.swift */; };
+		E7D366F0206A1F6E00F4FD25 /* ChuKyCuaConLac.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D366EF206A1F6E00F4FD25 /* ChuKyCuaConLac.swift */; };
+		E7D366F2206A20C400F4FD25 /* DienTichTamGiac.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D366F1206A20C400F4FD25 /* DienTichTamGiac.swift */; };
+		E7D366F4206A210E00F4FD25 /* BieuThuc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D366F3206A210E00F4FD25 /* BieuThuc.swift */; };
+		E7D366F6206A214B00F4FD25 /* BieuThucCos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D366F5206A214B00F4FD25 /* BieuThucCos.swift */; };
+		E7D366F8206A218700F4FD25 /* BieuThucSin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D366F7206A218700F4FD25 /* BieuThucSin.swift */; };
+		E7D366FA206A21CA00F4FD25 /* BieuThucLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D366F9206A21CA00F4FD25 /* BieuThucLog.swift */; };
+		E7D366FC206A221000F4FD25 /* BieuThucExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D366FB206A221000F4FD25 /* BieuThucExp.swift */; };
+		E7D366FE206A228000F4FD25 /* BieuThucExp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D366FD206A228000F4FD25 /* BieuThucExp2.swift */; };
+		E7D36709206A253A00F4FD25 /* LenhDieuKien.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D36708206A253A00F4FD25 /* LenhDieuKien.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7D366CD2069E03200F4FD25 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E73B162B206A299500041E6A /* GiaiPhuongTrinhBacHai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiaiPhuongTrinhBacHai.swift; sourceTree = "<group>"; };
+		E73B162D206A2D1700041E6A /* GiaiBatPhuongTrinhBacHai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiaiBatPhuongTrinhBacHai.swift; sourceTree = "<group>"; };
+		E73B162F206A34AF00041E6A /* TinhAMuN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinhAMuN.swift; sourceTree = "<group>"; };
+		E73B1631206A390500041E6A /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tutorial.swift; path = "../../../../basic-tutorial-swift/Chinh Pham N./Tutorial.swift"; sourceTree = "<group>"; };
+		E7D366CF2069E03200F4FD25 /* TinHocDaiCuong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TinHocDaiCuong; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D366D22069E03200F4FD25 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E7D366E72069E11F00F4FD25 /* BanKinhHinhCau.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanKinhHinhCau.swift; sourceTree = "<group>"; };
+		E7D366E92069E42400F4FD25 /* TinhGiaTriHam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinhGiaTriHam.swift; sourceTree = "<group>"; };
+		E7D366EB2069E46F00F4FD25 /* GiaTriFXY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiaTriFXY.swift; sourceTree = "<group>"; };
+		E7D366ED2069F52C00F4FD25 /* TinhGiaTriLonNhat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinhGiaTriLonNhat.swift; sourceTree = "<group>"; };
+		E7D366EF206A1F6E00F4FD25 /* ChuKyCuaConLac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuKyCuaConLac.swift; sourceTree = "<group>"; };
+		E7D366F1206A20C400F4FD25 /* DienTichTamGiac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DienTichTamGiac.swift; sourceTree = "<group>"; };
+		E7D366F3206A210E00F4FD25 /* BieuThuc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BieuThuc.swift; sourceTree = "<group>"; };
+		E7D366F5206A214B00F4FD25 /* BieuThucCos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BieuThucCos.swift; sourceTree = "<group>"; };
+		E7D366F7206A218700F4FD25 /* BieuThucSin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BieuThucSin.swift; sourceTree = "<group>"; };
+		E7D366F9206A21CA00F4FD25 /* BieuThucLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BieuThucLog.swift; sourceTree = "<group>"; };
+		E7D366FB206A221000F4FD25 /* BieuThucExp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BieuThucExp.swift; sourceTree = "<group>"; };
+		E7D366FD206A228000F4FD25 /* BieuThucExp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BieuThucExp2.swift; sourceTree = "<group>"; };
+		E7D36708206A253A00F4FD25 /* LenhDieuKien.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenhDieuKien.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7D366CC2069E03200F4FD25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7D366C62069E03200F4FD25 = {
+			isa = PBXGroup;
+			children = (
+				E7D366D12069E03200F4FD25 /* TinHocDaiCuong */,
+				E7D366D02069E03200F4FD25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7D366D02069E03200F4FD25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7D366CF2069E03200F4FD25 /* TinHocDaiCuong */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7D366D12069E03200F4FD25 /* TinHocDaiCuong */ = {
+			isa = PBXGroup;
+			children = (
+				E7D366DC2069E0B300F4FD25 /* Bai tap 1 */,
+				E7D366E32069E0B400F4FD25 /* Bai tap 2 */,
+				E7D366E42069E0B400F4FD25 /* Bai tap 3 */,
+				E7D366D92069E0B300F4FD25 /* Bai tap 4 */,
+				E7D366DF2069E0B300F4FD25 /* Bai tap 5 */,
+				E7D366E22069E0B300F4FD25 /* Bai tap 6 */,
+				E7D366DA2069E0B300F4FD25 /* Bai tap 7 */,
+				E7D366E02069E0B300F4FD25 /* Bai tap 8 */,
+				E7D366E12069E0B300F4FD25 /* Bai tap 9 */,
+				E7D366DE2069E0B300F4FD25 /* Bai tap 10 */,
+				E7D366DB2069E0B300F4FD25 /* Bai tap 11 */,
+				E7D366DD2069E0B300F4FD25 /* Bai tap 12 */,
+				E7D366D22069E03200F4FD25 /* main.swift */,
+				E7D36706206A251200F4FD25 /* Bai tap 13 */,
+				E7D36702206A251100F4FD25 /* Bai tap 14 */,
+				E7D36707206A251200F4FD25 /* Bai tap 15 */,
+				E7D36705206A251100F4FD25 /* Bai tap 16 */,
+				E7D366FF206A251000F4FD25 /* Bai tap 17 */,
+				E7D36700206A251100F4FD25 /* Bai tap 18 */,
+				E7D36704206A251100F4FD25 /* Bai tap 19 */,
+				E7D36703206A251100F4FD25 /* Bai tap 20 */,
+				E7D36701206A251100F4FD25 /* Bai tap 21 */,
+			);
+			path = TinHocDaiCuong;
+			sourceTree = "<group>";
+		};
+		E7D366D92069E0B300F4FD25 /* Bai tap 4 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D366EF206A1F6E00F4FD25 /* ChuKyCuaConLac.swift */,
+			);
+			path = "Bai tap 4";
+			sourceTree = "<group>";
+		};
+		E7D366DA2069E0B300F4FD25 /* Bai tap 7 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D366F5206A214B00F4FD25 /* BieuThucCos.swift */,
+			);
+			path = "Bai tap 7";
+			sourceTree = "<group>";
+		};
+		E7D366DB2069E0B300F4FD25 /* Bai tap 11 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D366FD206A228000F4FD25 /* BieuThucExp2.swift */,
+			);
+			path = "Bai tap 11";
+			sourceTree = "<group>";
+		};
+		E7D366DC2069E0B300F4FD25 /* Bai tap 1 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D366E72069E11F00F4FD25 /* BanKinhHinhCau.swift */,
+			);
+			path = "Bai tap 1";
+			sourceTree = "<group>";
+		};
+		E7D366DD2069E0B300F4FD25 /* Bai tap 12 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D366ED2069F52C00F4FD25 /* TinhGiaTriLonNhat.swift */,
+			);
+			path = "Bai tap 12";
+			sourceTree = "<group>";
+		};
+		E7D366DE2069E0B300F4FD25 /* Bai tap 10 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D366FB206A221000F4FD25 /* BieuThucExp.swift */,
+			);
+			path = "Bai tap 10";
+			sourceTree = "<group>";
+		};
+		E7D366DF2069E0B300F4FD25 /* Bai tap 5 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D366F1206A20C400F4FD25 /* DienTichTamGiac.swift */,
+			);
+			path = "Bai tap 5";
+			sourceTree = "<group>";
+		};
+		E7D366E02069E0B300F4FD25 /* Bai tap 8 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D366F7206A218700F4FD25 /* BieuThucSin.swift */,
+			);
+			path = "Bai tap 8";
+			sourceTree = "<group>";
+		};
+		E7D366E12069E0B300F4FD25 /* Bai tap 9 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D366F9206A21CA00F4FD25 /* BieuThucLog.swift */,
+			);
+			path = "Bai tap 9";
+			sourceTree = "<group>";
+		};
+		E7D366E22069E0B300F4FD25 /* Bai tap 6 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D366F3206A210E00F4FD25 /* BieuThuc.swift */,
+			);
+			path = "Bai tap 6";
+			sourceTree = "<group>";
+		};
+		E7D366E32069E0B400F4FD25 /* Bai tap 2 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D366E92069E42400F4FD25 /* TinhGiaTriHam.swift */,
+			);
+			path = "Bai tap 2";
+			sourceTree = "<group>";
+		};
+		E7D366E42069E0B400F4FD25 /* Bai tap 3 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D366EB2069E46F00F4FD25 /* GiaTriFXY.swift */,
+			);
+			path = "Bai tap 3";
+			sourceTree = "<group>";
+		};
+		E7D366FF206A251000F4FD25 /* Bai tap 17 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Bai tap 17";
+			sourceTree = "<group>";
+		};
+		E7D36700206A251100F4FD25 /* Bai tap 18 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Bai tap 18";
+			sourceTree = "<group>";
+		};
+		E7D36701206A251100F4FD25 /* Bai tap 21 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Bai tap 21";
+			sourceTree = "<group>";
+		};
+		E7D36702206A251100F4FD25 /* Bai tap 14 */ = {
+			isa = PBXGroup;
+			children = (
+				E73B162B206A299500041E6A /* GiaiPhuongTrinhBacHai.swift */,
+			);
+			path = "Bai tap 14";
+			sourceTree = "<group>";
+		};
+		E7D36703206A251100F4FD25 /* Bai tap 20 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Bai tap 20";
+			sourceTree = "<group>";
+		};
+		E7D36704206A251100F4FD25 /* Bai tap 19 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Bai tap 19";
+			sourceTree = "<group>";
+		};
+		E7D36705206A251100F4FD25 /* Bai tap 16 */ = {
+			isa = PBXGroup;
+			children = (
+				E73B162F206A34AF00041E6A /* TinhAMuN.swift */,
+				E73B1631206A390500041E6A /* Tutorial.swift */,
+			);
+			path = "Bai tap 16";
+			sourceTree = "<group>";
+		};
+		E7D36706206A251200F4FD25 /* Bai tap 13 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D36708206A253A00F4FD25 /* LenhDieuKien.swift */,
+			);
+			path = "Bai tap 13";
+			sourceTree = "<group>";
+		};
+		E7D36707206A251200F4FD25 /* Bai tap 15 */ = {
+			isa = PBXGroup;
+			children = (
+				E73B162D206A2D1700041E6A /* GiaiBatPhuongTrinhBacHai.swift */,
+			);
+			path = "Bai tap 15";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7D366CE2069E03200F4FD25 /* TinHocDaiCuong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D366D62069E03200F4FD25 /* Build configuration list for PBXNativeTarget "TinHocDaiCuong" */;
+			buildPhases = (
+				E7D366CB2069E03200F4FD25 /* Sources */,
+				E7D366CC2069E03200F4FD25 /* Frameworks */,
+				E7D366CD2069E03200F4FD25 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinHocDaiCuong;
+			productName = TinHocDaiCuong;
+			productReference = E7D366CF2069E03200F4FD25 /* TinHocDaiCuong */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7D366C72069E03200F4FD25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Chính Phạm";
+				TargetAttributes = {
+					E7D366CE2069E03200F4FD25 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E7D366CA2069E03200F4FD25 /* Build configuration list for PBXProject "TinHocDaiCuong" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7D366C62069E03200F4FD25;
+			productRefGroup = E7D366D02069E03200F4FD25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7D366CE2069E03200F4FD25 /* TinHocDaiCuong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7D366CB2069E03200F4FD25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D366FA206A21CA00F4FD25 /* BieuThucLog.swift in Sources */,
+				E73B1632206A390500041E6A /* Tutorial.swift in Sources */,
+				E7D366F2206A20C400F4FD25 /* DienTichTamGiac.swift in Sources */,
+				E7D36709206A253A00F4FD25 /* LenhDieuKien.swift in Sources */,
+				E7D366EE2069F52C00F4FD25 /* TinhGiaTriLonNhat.swift in Sources */,
+				E7D366F4206A210E00F4FD25 /* BieuThuc.swift in Sources */,
+				E7D366EA2069E42400F4FD25 /* TinhGiaTriHam.swift in Sources */,
+				E7D366F6206A214B00F4FD25 /* BieuThucCos.swift in Sources */,
+				E7D366FC206A221000F4FD25 /* BieuThucExp.swift in Sources */,
+				E73B162E206A2D1700041E6A /* GiaiBatPhuongTrinhBacHai.swift in Sources */,
+				E7D366EC2069E46F00F4FD25 /* GiaTriFXY.swift in Sources */,
+				E7D366E82069E11F00F4FD25 /* BanKinhHinhCau.swift in Sources */,
+				E7D366F0206A1F6E00F4FD25 /* ChuKyCuaConLac.swift in Sources */,
+				E7D366D32069E03200F4FD25 /* main.swift in Sources */,
+				E7D366FE206A228000F4FD25 /* BieuThucExp2.swift in Sources */,
+				E73B162C206A299500041E6A /* GiaiPhuongTrinhBacHai.swift in Sources */,
+				E7D366F8206A218700F4FD25 /* BieuThucSin.swift in Sources */,
+				E73B1630206A34AF00041E6A /* TinhAMuN.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E7D366D42069E03200F4FD25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7D366D52069E03200F4FD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		E7D366D72069E03200F4FD25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E7D366D82069E03200F4FD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7D366CA2069E03200F4FD25 /* Build configuration list for PBXProject "TinHocDaiCuong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D366D42069E03200F4FD25 /* Debug */,
+				E7D366D52069E03200F4FD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D366D62069E03200F4FD25 /* Build configuration list for PBXNativeTarget "TinHocDaiCuong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D366D72069E03200F4FD25 /* Debug */,
+				E7D366D82069E03200F4FD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7D366C72069E03200F4FD25 /* Project object */;
+}
