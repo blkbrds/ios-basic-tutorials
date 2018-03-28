@@ -9,3 +9,4 @@ package.json
 vendor
 Gemfile
 Gemfile.lock
+.ruby-version
