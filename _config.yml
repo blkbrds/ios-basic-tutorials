@@ -1,2 +1,3 @@
-permalink: /ios-basic-tutorials/:title/
+title: 'ios-basic-tutorials'
+description: 'Các bài viết tutorial cơ bản nhất về các điểm lý thuyết hoặc các vấn đề trong iOS hay gặp.'
 theme: jekyll-theme-cayman
