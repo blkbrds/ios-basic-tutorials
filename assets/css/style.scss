@@ -1,1 +1,12 @@
+---
+---
+
 @import "{{ site.theme }}";
+
+article {
+  padding-bottom: 25px;
+}
+
+article:last-child {
+  padding-bottom: 0px;
+}
