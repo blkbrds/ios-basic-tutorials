@@ -4,10 +4,9 @@ layout: post
 title: Optional trong Swift
 ---
 
-## Đặt vấn đề
+Trong lập trình, một trong những lỗi thường gặp nhất của lập trình viên là dùng một biến nhưng không kiểm soát được giá trị trả về của biến, biến đó có thể có giá trị (**value**) hoặc không có giá trị nào (**no value**).
 
-- Trong lập trình, một trong những lỗi thường gặp nhất của lập trình viên là dùng một biến nhưng không kiểm soát được giá trị trả về của biến, biến đó có thể có giá trị (**value**) hoặc không có giá trị nào (**no value**).
-- Vấn đề đặt ra ở đây là có quá nhiều trường hợp có thể làm cho giá trị của biến không tồn tại, và sử dụng những biến như vậy tiềm ẩn rất nhiều mối nguy hiểm. Câu hỏi đặt ra ở đây là cần giải quyết vấn đề đó như thế nào?
+Vấn đề đặt ra ở đây là có quá nhiều trường hợp có thể làm cho giá trị của biến không tồn tại, và sử dụng những biến như vậy tiềm ẩn rất nhiều mối nguy hiểm. Câu hỏi đặt ra ở đây là cần giải quyết vấn đề đó như thế nào?
 
 Trên thực tế thì các lập trình viên cũng đã đưa ra nhiều giải pháp để giải quyết vấn đề trên. Nhưng ở bài viết này, mình sẽ phân tích kỹ hơn về một kiểu dữ liệu dùng để chấp nhận sự vắng mặt giá trị của một biến / hằng.
 
